@@ -2,13 +2,16 @@
   text-align: center;
 }
 
-.App-logo {
+.tumorBuddy {
   height: 40vmin;
-  pointer-events: none;
+}
+
+.tumorBuddy:hover {
+  transform: scale(1.1);
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .tumorBuddy {
     animation: App-logo-spin infinite 20s linear;
   }
 }
